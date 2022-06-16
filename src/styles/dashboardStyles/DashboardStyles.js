@@ -53,9 +53,11 @@ export const ContSentences = styled.div`
 `;
 
 export const EnglishWord = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   color: #192452;
   margin: 0 0 0 0.4em;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
 `;
 
 export const Flag = styled.div`
