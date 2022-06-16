@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/venturit-test/static/js/main.579c0ebd.js",
+    "static/media/backgroundOrange.png": "/venturit-test/static/media/backgroundOrange.7d5cab1d7dcbea7c0b4a.png",
+    "static/media/backgroundOld.png": "/venturit-test/static/media/backgroundOld.2c9e7f2954bf14ae96d3.png",
+    "static/media/backgroundBlack.png": "/venturit-test/static/media/backgroundBlack.395b5e91a57f00f7b04c.png",
+    "static/media/boy.png": "/venturit-test/static/media/boy.3213aff173545bde944c.png",
+    "index.html": "/venturit-test/index.html",
+    "main.579c0ebd.js.map": "/venturit-test/static/js/main.579c0ebd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.579c0ebd.js"
+  ]
+}
