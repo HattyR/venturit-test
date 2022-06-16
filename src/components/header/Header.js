@@ -14,6 +14,8 @@ import {
   ContIcons,
   ContProfile,
   ContSearch,
+  DivIcons,
+  DivSearch,
   Name,
   NotificationImg,
   PictureProfile,
@@ -40,23 +42,16 @@ export const Header = () => {
       <ContHeader>
         <PlatformImage />
 
-        <div style={{ display: window.innerWidth < 1001 ? "none" : "inline" }}>
+        <DivSearch>
           <Search>
             <InputBase placeholder="Search and Find" />
             <SearchIcon sx={{ color: "#9D9BB6" }} />
           </Search>
-        </div>
+        </DivSearch>
 
         <Secondary name="+ ADD" />
 
-        <div
-          style={{
-            display:
-              window.innerWidth > 500 && window.innerWidth < 1000
-                ? "none"
-                : "inline",
-          }}
-        >
+        <DivIcons>
           <ContIcons>
             <NotificationImg
               onClick={() => setShowNotifications(!showNotifications)}
@@ -64,7 +59,7 @@ export const Header = () => {
             <ChatImg />
             {showNotifications && <Notifications />}
           </ContIcons>
-        </div>
+        </DivIcons>
 
         <ContProfile>
           <Name>Clarence Rusell</Name>

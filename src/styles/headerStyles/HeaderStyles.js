@@ -68,6 +68,18 @@ export const ChatImg = styled.img`
   content: url(${chat});
 `;
 
+export const DivSearch = styled.div`
+  @media (max-width: 1000px) {
+    display: none;
+  }
+`;
+
+export const DivIcons = styled.div`
+  @media (min-width: 500px) and (max-width: 1000px) {
+    display: none;
+  }
+`;
+
 export const Name = styled.p`
   font-size: 16px;
   color: #3e3a6f;
